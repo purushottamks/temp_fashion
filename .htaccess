@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} index.php
+
+RewriteRule ^([a-zA-Z0-9]*+)$ index.php?view=$1
+
+RewriteRule ^([a-zA-Z0-9]*+)/$ index.php?view=$1
+
+RewriteRule ^([a-zA-Z0-9]*+)/([a-zA-Z0-9]*+)$ index.php?view=$1&param1=$2 [L]
+
+RewriteRule ^([a-zA-Z0-9]*+)/([a-zA-Z0-9]*+)/([a-zA-Z0-9]*+)$ index.php?view=$1&param1=$2&param2=$3 [L]
+
+RewriteRule ^([a-zA-Z0-9]*+)/([a-zA-Z0-9]*+)/([a-zA-Z0-9]*+)/([a-zA-Z0-9]*+)$ index.php?view=$1&param1=$2&param2=$3&param3=$4 [L]

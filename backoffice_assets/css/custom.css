@@ -1,0 +1,45 @@
+.hide{
+    display: none;
+}
+
+.list-wrapper li{
+    border: 1px solid #1fae66 !important;
+}
+
+.list-wrapper .menu-text{
+    color:#ffffff;
+    font-weight: 900;
+    background-color: #0c0c0c;
+}
+
+.list-wrapper .menu-text:hover{
+    background-color: #1fae66;
+}
+
+.list-wrapper .menu-date{
+    color:#ffffff;
+    font-weight: 900;
+}
+
+.content-grid .list-wrapper > li > a{
+    padding: 10px;
+}
+
+
+.list-wrapper .menu-icon img{
+    width: 100%;
+}
+
+.search_box{
+    width: 150px !important;
+    height: 28px !important;
+    float:right !important;
+}
+
+.panel-title{
+    display: inline-block !important;
+}
+
+.menu-text{
+  height: 70px;
+}

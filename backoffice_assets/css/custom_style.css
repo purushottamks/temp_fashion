@@ -1,0 +1,91 @@
+.widget {background:#f4f6f8;}.panel-body .table-responsive{	background:#f4f6f8;}.container .currency_box{
+    height:90px;
+    width:90px;
+    border:1px solid grey;
+    margin:10px;
+    padding:20px;
+    text-align: center;
+    float: left;
+    background-color: white;
+}
+p{
+    margin: 0px;
+}
+
+.list-wrapper{
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.product_li{
+    width: 150px !important;
+    display: inline-block;
+    margin: 10px;
+    border:2px solid black;
+}
+
+
+.all_product_img{
+    vertical-align: middle;
+    width: auto;
+    height:auto;
+    max-height:144px;
+    max-width:120px;
+}
+.menu-text{
+    background-color: #2d3840;
+    padding:5px;
+    color:#ffffff;
+    height: 76px;
+}
+
+.padding_20{
+    padding:20px;
+}
+
+.vd_bg-lightblue {
+    background-color: #448fbc !important;
+}
+
+.ready_images{
+    width:50%;
+    display:inline;
+}
+
+.panel-title{
+    display: inline-block;
+}
+
+.panel-title a{
+    font-weight: 900;
+}
+
+.variant_title{
+    width: 150px !important;
+    height: 28px;
+}
+
+
+.search_box{
+    width: 150px !important;
+    height: 28px;
+    float:right;
+}
+
+.vd_panel-header li{
+    cursor: pointer;
+}
+
+.vd_panel-header li:last-child{
+    cursor:default;
+}
+
+.breadcrumb > .active a{
+    color: #555 !important;
+}
+
+.menu-icon{
+    height:140px;
+    vertical-align: middle !important;
+}
